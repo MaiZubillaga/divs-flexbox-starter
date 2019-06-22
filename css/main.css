@@ -97,40 +97,76 @@ textarea {
 
 
 html {
-  background-color:  #e6eeff;
+  background-color:  #FFC500;
   height: 100%;
+  width: 100%;
+  color: #7F0909;
 }
 
 body {
   font-family: 'Raleway', sans-serif;
   padding: 3em;
-  font-size: 1.25em;
-  height: 100%;
-}
-
-.wrapper {
-  font-weight: 700;
-  display:flex;
-  justify-content: space-between;
-}
-
-.div-1, .div-2, .div-3 {
-  color: #000000;
   line-height: 1.5em;
-  font-size: 1em;
-  height: 300px;
-  display:flex;
-  width: 30%;
+  height: 450px;
+  display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.div-2 {
-    border-left: 1px solid #003399;
-    border-right: 1px solid #003399;
+header,
+footer {
+    display: flex;
+    justify-content: flex-start;
+    height: 100px;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Shadows into light", cursive;
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.4em;
+    padding: 0.7em 0;
+}
+
+.flex-container {
+    display:flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    max-width: 1200px;
+}
+
+.flex-item {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+#div-1, 
+#div-2, 
+#div-3 {
+    width: 30%;
+}
+
+#div-2 {
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
     padding: 0 2em 0 2em;
 }
 
+footer a {
+    padding: 2em 0;
+}
 
 
 /* ==========================================================================
